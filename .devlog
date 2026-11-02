@@ -1,0 +1,1322 @@
+npm notice run orbiter@0.1.0 npx
+npm notice run next dev --port 3111
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3111
+- Network:       http://10.10.1.1:3111
+✓ Ready in 1184ms
+✓ Running next.config.ts took 70ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+○ Compiling / ...
+ GET / 200 in 992ms (next.js: 437ms, application-code: 555ms)
+ GET / 200 in 134ms (next.js: 4ms, application-code: 130ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+✓ Compiled in 259ms
+✓ Compiled in 52ms
+ GET / 200 in 731ms (next.js: 11ms, application-code: 720ms)
+✓ Compiled in 149ms
+✓ Compiled in 166ms
+✓ Compiled in 101ms
+✓ Compiled in 280ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+✓ Compiled in 106ms
+ GET / 200 in 203ms (next.js: 6ms, application-code: 197ms)
+ GET / 200 in 138ms (next.js: 3ms, application-code: 134ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET / 200 in 764ms (next.js: 38ms, application-code: 726ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET / 200 in 315ms (next.js: 42ms, application-code: 273ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /solar-system 404 in 3.0s (next.js: 2.8s, application-code: 165ms)
+ GET /solar-system 404 in 1350ms (next.js: 513ms, application-code: 837ms)
+ GET / 200 in 386ms (next.js: 2ms, application-code: 384ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+✓ Compiled in 345ms
+ GET / 200 in 91ms (next.js: 10ms, application-code: 81ms)
+ GET / 200 in 57ms (next.js: 2ms, application-code: 54ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET /deep-space 404 in 106ms (next.js: 35ms, application-code: 71ms)
+ GET /deep-space 404 in 229ms (next.js: 33ms, application-code: 196ms)
+ GET / 200 in 265ms (next.js: 1.9ms, application-code: 264ms)
+ GET / 200 in 138ms (next.js: 1.9ms, application-code: 136ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /solar-system 404 in 46ms (next.js: 19ms, application-code: 27ms)
+ GET /solar-system 404 in 70ms (next.js: 12ms, application-code: 57ms)
+ GET / 200 in 86ms (next.js: 2ms, application-code: 83ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET / 200 in 970ms (next.js: 181ms, application-code: 790ms)
+ GET / 200 in 515ms (next.js: 13ms, application-code: 502ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET / 200 in 155ms (next.js: 5ms, application-code: 150ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /solar-system 404 in 620ms (next.js: 402ms, application-code: 217ms)
+ GET /solar-system 404 in 156ms (next.js: 33ms, application-code: 123ms)
+ GET / 200 in 222ms (next.js: 3ms, application-code: 219ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false
+
+Material Name: 
+Material Type: ShaderMaterial
+
+Program Info Log: 
+
+ 
+[browser] THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+
+Material Name: 
+Material Type: ShaderMaterial
+
+Program Info Log: 
+
+ 
+[browser] THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+
+Material Name: 
+Material Type: ShaderMaterial
+
+Program Info Log: 
+
+ 
+[browser] THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+
+Material Name: 
+Material Type: ShaderMaterial
+
+Program Info Log: 
+
+ 
+ GET /solar-system 404 in 169ms (next.js: 63ms, application-code: 106ms)
+ GET /solar-system 404 in 487ms (next.js: 177ms, application-code: 310ms)
+ GET / 200 in 397ms (next.js: 2ms, application-code: 395ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Web page caused context loss and was blocked 
+[browser] THREE.WebGLRenderer: A WebGL context could not be created. Reason:  Web page caused context loss and was blocked 
+[browser] THREE.WebGLRenderer: THREE.WebGLRenderer: Error creating WebGL context. 
+[browser] Uncaught Error: THREE.WebGLRenderer: Error creating WebGL context.
+    at LazyCanvas (components/three/scene.tsx:77:7)
+    at HeroCanvas (components/three/hero-scene.tsx:51:5)
+    at Home (app\page.tsx:70:9)
+  75 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  76 |     >
+> 77 |       <Canvas
+     |       ^
+  78 |         camera={camera}
+  79 |         dpr={dpr}
+  80 |         frameloop={inView ? "always" : "never"}
+ GET /solar-system 404 in 422ms (next.js: 289ms, application-code: 133ms)
+ GET / 200 in 445ms (next.js: 5ms, application-code: 440ms)
+  Turbopack has seen frequent file updates and is waiting for the filesystem to settle (0.5s elapsed so far; last modified: "\\\\?\\C:\\Users\\farza\\.zcode\\workspace\\draft-99309921-d1fc-41ee-8415-cf4b49cfed45\\node_modules\\next\\dist\\lib\\metadata\\resolvers").
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET / 200 in 775ms (next.js: 21ms, application-code: 754ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /solar-system 404 in 338ms (next.js: 184ms, application-code: 154ms)
+ GET / 200 in 110ms (next.js: 2ms, application-code: 108ms)
+✓ Compiled in 874ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 899ms (next.js: 48ms, application-code: 851ms)
+ GET / 200 in 207ms (next.js: 10ms, application-code: 197ms)
+ GET / 200 in 188ms (next.js: 9ms, application-code: 179ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+✓ Compiled in 240ms
+✓ Compiled in 220ms
+ GET / 200 in 804ms (next.js: 179ms, application-code: 625ms)
+ GET / 200 in 524ms (next.js: 13ms, application-code: 511ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+✓ Compiled in 732ms
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+✓ Compiled in 1006ms
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET /solar-system 404 in 443ms (next.js: 178ms, application-code: 266ms)
+✓ Compiled in 238ms
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+✓ Compiled in 502ms
+ GET / 200 in 239ms (next.js: 17ms, application-code: 222ms)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentTrieNode>
+                    <Home>
+                      <section className="grain rela...">
+                        <HeroCanvas>
+                          <LazyCanvas className="absolute i..." camera={{position:[...], ...}} ariaLabel="A 3D Earth...">
+                            <div
+                              ref={{current:null}}
++                             className="absolute inset-0"
+-                             className="absolute inset-0 flex items-center justify-center"
+                              role="img"
+                              aria-label="A 3D Earth with its current day and night sides, slowly rotating in space"
+                            >
+                              <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                <h>
+                                  <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <div
+                                      ref={{current:null}}
+                                      style={{
++                                       position: "relative"
++                                       width: "100%"
++                                       height: "100%"
++                                       overflow: "hidden"
++                                       pointerEvents: "auto"
+                                      }}
+-                                     className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                    >
+                                      <div
+                                        ref={function L}
++                                       style={{width:"100%",height:"100%"}}
+-                                       style={{}}
+-                                       className="mono-label mb-2 text-amber"
+                                      >
++                                       <canvas ref={{current:null}} style={{display:"block"}}>
+-                                       WebGL unavailable
+                              ...
+                        ...
+                      ...
+                  ...
+                ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at HeroCanvas (components/three/hero-scene.tsx:51:5)
+    at Home (app\page.tsx:70:9)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+✓ Compiled in 242ms
+ GET / 200 in 65ms (next.js: 4ms, application-code: 61ms)
+ GET /solar-system 404 in 77ms (next.js: 27ms, application-code: 50ms)
+ GET / 200 in 77ms (next.js: 3ms, application-code: 74ms)
+ GET /solar-system 404 in 94ms (next.js: 25ms, application-code: 69ms)
+✓ Compiled in 835ms
+✓ Compiled in 225ms
+ GET / 200 in 140ms (next.js: 16ms, application-code: 124ms)
+ GET / 200 in 76ms (next.js: 2ms, application-code: 73ms)
+ GET /solar-system 200 in 116ms (next.js: 64ms, application-code: 52ms)
+✓ Compiled in 492ms
+ GET / 200 in 446ms (next.js: 7ms, application-code: 439ms)
+✓ Compiled in 393ms
+ GET / 200 in 65ms (next.js: 6ms, application-code: 59ms)
+✓ Compiled in 337ms
+ GET / 200 in 248ms (next.js: 2ms, application-code: 246ms)
+ GET / 200 in 92ms (next.js: 4ms, application-code: 88ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET /solar-system 200 in 314ms (next.js: 3ms, application-code: 311ms)
+ GET / 200 in 107ms (next.js: 3ms, application-code: 105ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+✓ Compiled in 448ms
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET /solar-system 200 in 126ms (next.js: 14ms, application-code: 113ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /solar-system 200 in 121ms (next.js: 4ms, application-code: 116ms)
+ GET / 200 in 74ms (next.js: 2ms, application-code: 71ms)
+ GET /deep-space 404 in 82ms (next.js: 41ms, application-code: 42ms)
+ GET /deep-space 404 in 101ms (next.js: 23ms, application-code: 78ms)
+ GET /solar-system 200 in 77ms (next.js: 2ms, application-code: 75ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /lab 404 in 53ms (next.js: 17ms, application-code: 36ms)
+ GET /lab 404 in 102ms (next.js: 29ms, application-code: 74ms)
+ GET /solar-system 200 in 61ms (next.js: 2ms, application-code: 59ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+✓ Compiled in 179ms
+ GET /deep-space 404 in 53ms (next.js: 18ms, application-code: 35ms)
+ GET /deep-space 404 in 90ms (next.js: 17ms, application-code: 73ms)
+ GET /earth 200 in 88ms (next.js: 24ms, application-code: 64ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Error: Route "/earth": Next.js encountered the unstable value `Date.now()` in a Client Component.
+
+This value would be evaluated during the prerender, instead of recomputed on each visit.
+
+Ways to fix this:
+  - [stream] Wrap the Client Component in `<Suspense fallback={...}>`
+  - [defer] Move the read into a `useEffect` or event handler
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time-client
+    at <unknown> (components\earth\earth-explorer.tsx:67:39)
+    at EarthExplorer (components\earth\earth-explorer.tsx:66:22)
+    at EarthPage (app\earth\page.tsx:19:7)
+  65 |
+  66 |   const sun = useMemo(
+> 67 |     () => subsolarPoint(new Date(Date.now() + timeOffsetHours * 3600_000)),
+     |                                       ^
+  68 |     [timeOffsetHours]
+  69 |   );
+  70 |
+ GET /api/iss/crew 200 in 1195ms (next.js: 125ms, application-code: 1071ms)
+ GET /api/iss/crew 200 in 445ms (next.js: 2ms, application-code: 443ms)
+✓ Compiled in 489ms
+ GET /deep-space 404 in 174ms (next.js: 111ms, application-code: 63ms)
+ GET /deep-space 404 in 203ms (next.js: 83ms, application-code: 120ms)
+ GET /mars 200 in 125ms (next.js: 19ms, application-code: 106ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /mars 200 in 67ms (next.js: 8ms, application-code: 59ms)
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+ GET /mars? 200 in 134ms (next.js: 2ms, application-code: 132ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="mars/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/mars" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="mars/page.tsx">
+                  <SegmentTrieNode>
+                  <MarsPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <MarsExplorer>
+                          <div className="flex flex-...">
+                            <div className="grid gap-6...">
+                              <LazyCanvas className="panel h-[6..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[64vh] min-h-[420px] w-full"
+-                                 className="panel h-[64vh] min-h-[420px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Mars with labeled terrain features and rover landing sites"
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+ GET /mars 200 in 100ms (next.js: 1.9ms, application-code: 98ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="mars/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/mars" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="mars/page.tsx">
+                  <SegmentTrieNode>
+                  <MarsPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <MarsExplorer>
+                          <div className="flex flex-...">
+                            <div className="grid gap-6...">
+                              <LazyCanvas className="panel h-[6..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[64vh] min-h-[420px] w-full"
+-                                 className="panel h-[64vh] min-h-[420px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Mars with labeled terrain features and rover landing sites"
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+ GET /mars 200 in 116ms (next.js: 5ms, application-code: 111ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="mars/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/mars" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="mars/page.tsx">
+                  <SegmentTrieNode>
+                  <MarsPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <MarsExplorer>
+                          <div className="flex flex-...">
+                            <div className="grid gap-6...">
+                              <LazyCanvas className="panel h-[6..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[64vh] min-h-[420px] w-full"
+-                                 className="panel h-[64vh] min-h-[420px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Mars with labeled terrain features and rover landing sites"
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+✓ Compiled in 897ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /mars 200 in 169ms (next.js: 21ms, application-code: 148ms)
+ GET /mars 200 in 448ms (next.js: 3ms, application-code: 445ms)
+ GET / 200 in 241ms (next.js: 4ms, application-code: 237ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="mars/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/mars" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="mars/page.tsx">
+                  <SegmentTrieNode>
+                  <MarsPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <MarsExplorer>
+                          <div className="flex flex-...">
+                            <div className="grid gap-6...">
+                              <LazyCanvas className="panel h-[6..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[64vh] min-h-[420px] w-full"
+-                                 className="panel h-[64vh] min-h-[420px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Mars with labeled terrain features and rover landing sites"
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+ GET /mars 200 in 131ms (next.js: 1.8ms, application-code: 129ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="mars/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/mars" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="mars/page.tsx">
+                  <SegmentTrieNode>
+                  <MarsPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <MarsExplorer>
+                          <div className="flex flex-...">
+                            <div className="grid gap-6...">
+                              <LazyCanvas className="panel h-[6..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[64vh] min-h-[420px] w-full"
+-                                 className="panel h-[64vh] min-h-[420px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Mars with labeled terrain features and rover landing sites"
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at MarsExplorer (components/mars/mars-explorer.tsx:234:11)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+[browser] Uncaught ReferenceError: useRef is not defined
+    at MarsScene (components/mars/mars-explorer.tsx:95:17)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at MarsExplorer (components/mars/mars-explorer.tsx:229:9)
+    at MarsPage (app\mars\page.tsx:19:7)
+  93 |   map.colorSpace = THREE.SRGBColorSpace;
+  94 |   map.anisotropy = 4;
+> 95 |   const globe = useRef<THREE.Mesh>(null);
+     |                 ^
+  96 |
+  97 |   useFrame((_, delta) => {
+  98 |     if (globe.current) globe.current.rotation.y += delta * 0.02;
+ GET / 200 in 120ms (next.js: 3ms, application-code: 117ms)
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={{...}} forbidden={undefined} unauthorized={undefined}>
+          <HTTPAccessFallbackErrorBoundary pathname="/" notFound={{...}} forbidden={undefined} unauthorized={undefined} ...>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="page.tsx">
+                    <SegmentTrieNode>
+                    <Home>
+                      <section className="grain rela...">
+                        <HeroCanvas>
+                          <LazyCanvas className="absolute i..." camera={{position:[...], ...}} ariaLabel="A 3D Earth...">
+                            <div
+                              ref={{current:null}}
++                             className="absolute inset-0"
+-                             className="absolute inset-0 flex items-center justify-center"
+                              role="img"
+                              aria-label="A 3D Earth with its current day and night sides, slowly rotating in space"
+                            >
+                              <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                <h>
+                                  <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <div
+                                      ref={{current:null}}
+                                      style={{
++                                       position: "relative"
++                                       width: "100%"
++                                       height: "100%"
++                                       overflow: "hidden"
++                                       pointerEvents: "auto"
+                                      }}
+-                                     className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                    >
+                                      <div
+                                        ref={function L}
++                                       style={{width:"100%",height:"100%"}}
+-                                       style={{}}
+-                                       className="mono-label mb-2 text-amber"
+                                      >
++                                       <canvas ref={{current:null}} style={{display:"block"}}>
+-                                       WebGL unavailable
+                              ...
+                        ...
+                      ...
+                  ...
+                ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at HeroCanvas (components/three/hero-scene.tsx:51:5)
+    at Home (app\page.tsx:70:9)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /missions 404 in 72ms (next.js: 30ms, application-code: 42ms)
+ GET /missions 404 in 72ms (next.js: 19ms, application-code: 53ms)
+ GET /events 404 in 34ms (next.js: 15ms, application-code: 19ms)
+ GET /events 404 in 93ms (next.js: 35ms, application-code: 58ms)
+ GET /earth 200 in 79ms (next.js: 4ms, application-code: 74ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+Error: Route "/earth": Next.js encountered the unstable value `Date.now()` in a Client Component.
+
+This value would be evaluated during the prerender, instead of recomputed on each visit.
+
+Ways to fix this:
+  - [stream] Wrap the Client Component in `<Suspense fallback={...}>`
+  - [defer] Move the read into a `useEffect` or event handler
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time-client
+    at <unknown> (components\earth\earth-explorer.tsx:67:39)
+    at EarthExplorer (components\earth\earth-explorer.tsx:66:22)
+    at EarthPage (app\earth\page.tsx:19:7)
+  65 |
+  66 |   const sun = useMemo(
+> 67 |     () => subsolarPoint(new Date(Date.now() + timeOffsetHours * 3600_000)),
+     |                                       ^
+  68 |     [timeOffsetHours]
+  69 |   );
+  70 |
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /api/iss/crew 200 in 2.6s (next.js: 3ms, application-code: 2.6s)
+ GET /api/iss/crew 200 in 427ms (next.js: 5ms, application-code: 422ms)
+ GET /observatory 200 in 55ms (next.js: 13ms, application-code: 43ms)
+[browser] Uncaught RangeError: Invalid language tag: 
+    at Date.toLocaleString (<anonymous>)
+    at <unknown> (components/observatory/panels.tsx:137:109)
+    at Array.map (<anonymous>)
+    at NeoPanel (components/observatory/panels.tsx:130:19)
+    at ObservatoryPage (app\observatory\page.tsx:34:13)
+  135 |                     <span className="font-mono text-xs text-star">{n.name}</span>
+  136 |                     <span className="font-mono text-[10px] text-faint tabular-nums">
+> 137 |                       {new Date(n.closeApproachDate.replace(/-/g, " ").replace("Feb", "Feb")).toLocaleString?.("") ?? n.closeApproachDate}
+      |                                                                                                             ^
+  138 |                     </span>
+  139 |                   </div>
+  140 |                   <div className="mt-1.5 flex items-center gap-3">
+ GET /earth 200 in 207ms (next.js: 2ms, application-code: 205ms)
+Error: Route "/earth": Next.js encountered the unstable value `Date.now()` in a Client Component.
+
+This value would be evaluated during the prerender, instead of recomputed on each visit.
+
+Ways to fix this:
+  - [stream] Wrap the Client Component in `<Suspense fallback={...}>`
+  - [defer] Move the read into a `useEffect` or event handler
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time-client
+    at <unknown> (components\earth\earth-explorer.tsx:67:39)
+    at EarthExplorer (components\earth\earth-explorer.tsx:66:22)
+    at EarthPage (app\earth\page.tsx:19:7)
+  65 |
+  66 |   const sun = useMemo(
+> 67 |     () => subsolarPoint(new Date(Date.now() + timeOffsetHours * 3600_000)),
+     |                                       ^
+  68 |     [timeOffsetHours]
+  69 |   );
+  70 |
+[browser] Uncaught Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="earth/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/earth" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="earth/page...">
+                  <SegmentTrieNode>
+                  <EarthPage>
+                    <PageShell>
+                      <div className="mx-auto w-...">
+                        <div>
+                        <EarthExplorer>
+                          <div className="grid gap-6...">
+                            <div className="relative">
+                              <LazyCanvas className="panel h-[7..." camera={{position:[...], ...}} ...>
+                                <div
+                                  ref={{current:null}}
++                                 className="panel h-[70vh] min-h-[440px] w-full"
+-                                 className="panel h-[70vh] min-h-[440px] w-full flex items-center justify-center"
+                                  role="img"
+                                  aria-label="Interactive 3D Earth with real-time day and night sides and the live ISS..."
+                                >
+                                  <Canvas camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                    <h>
+                                      <CanvasImpl camera={{position:[...], ...}} dpr={[...]} frameloop="never" ...>
+                                        <div
+                                          ref={{current:null}}
+                                          style={{
++                                           position: "relative"
++                                           width: "100%"
++                                           height: "100%"
++                                           overflow: "hidden"
++                                           pointerEvents: "auto"
+                                          }}
+-                                         className="panel hud-corners mx-auto max-w-sm p-6 text-center"
+                                        >
+                                          <div
+                                            ref={function L}
++                                           style={{width:"100%",height:"100%"}}
+-                                           style={{}}
+-                                           className="mono-label mb-2 text-amber"
+                                          >
++                                           <canvas ref={{current:null}} style={{display:"block"}}>
+-                                           WebGL unavailable
+                                  ...
+                              ...
+                            ...
+                ...
+              ...
+    ...
+
+    at <unknown> (https://react.dev/link/hydration-mismatch)
+    at canvas (<anonymous>)
+    at LazyCanvas (components/three/scene.tsx:101:7)
+    at EarthExplorer (components/earth/earth-explorer.tsx:75:9)
+    at EarthPage (app\earth\page.tsx:19:7)
+   99 |       aria-label={ariaLabel ?? "Interactive 3D scene"}
+  100 |     >
+> 101 |       <Canvas
+      |       ^
+  102 |         camera={camera}
+  103 |         dpr={dpr}
+  104 |         frameloop={inView ? "always" : "never"}
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+ GET /api/iss/crew 200 in 106ms (next.js: 3ms, application-code: 103ms)
+✓ Compiled in 251ms
+ GET /earth 200 in 146ms (next.js: 14ms, application-code: 132ms)
+Error: Route "/earth": Next.js encountered the unstable value `Date.now()` in a Client Component.
+
+This value would be evaluated during the prerender, instead of recomputed on each visit.
+
+Ways to fix this:
+  - [stream] Wrap the Client Component in `<Suspense fallback={...}>`
+  - [defer] Move the read into a `useEffect` or event handler
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time-client
+    at <unknown> (components\earth\earth-explorer.tsx:67:39)
+    at EarthExplorer (components\earth\earth-explorer.tsx:66:22)
+    at EarthPage (app\earth\page.tsx:19:7)
+  65 |
+  66 |   const sun = useMemo(
+> 67 |     () => subsolarPoint(new Date(Date.now() + timeOffsetHours * 3600_000)),
+     |                                       ^
+  68 |     [timeOffsetHours]
+  69 |   );
+  70 |
+ GET / 200 in 100ms (next.js: 3ms, application-code: 97ms)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+[browser] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[browser] [RUM] ArmsEventBridge is not available, events dropped (<anonymous>:9:4511)
+ GET /solar-system 200 in 152ms (next.js: 3ms, application-code: 149ms)
+✓ Compiled in 172ms
+ GET /earth 200 in 475ms (next.js: 5ms, application-code: 470ms)
+ GET /solar-system 200 in 376ms (next.js: 7ms, application-code: 369ms)
+ GET / 200 in 433ms (next.js: 4ms, application-code: 429ms)
+Error: Route "/earth": Next.js encountered the unstable value `Date.now()` in a Client Component.
+
+This value would be evaluated during the prerender, instead of recomputed on each visit.
+
+Ways to fix this:
+  - [stream] Wrap the Client Component in `<Suspense fallback={...}>`
+  - [defer] Move the read into a `useEffect` or event handler
+  - [measure] If the value is for telemetry, use a timing API such as `performance.now()`
+
+Learn more: https://nextjs.org/docs/messages/blocking-prerender-current-time-client
+    at <unknown> (components\earth\earth-explorer.tsx:67:39)
+    at EarthExplorer (components\earth\earth-explorer.tsx:66:22)
+    at EarthPage (app\earth\page.tsx:19:7)
+  65 |
+  66 |   const sun = useMemo(
+> 67 |     () => subsolarPoint(new Date(Date.now() + timeOffsetHours * 3600_000)),
+     |                                       ^
+  68 |     [timeOffsetHours]
+  69 |   );
+  70 |
+✓ Compiled in 192ms
+✓ Compiled in 151ms
+✓ Compiled in 169ms
+✓ Compiled in 174ms
+✓ Compiled in 183ms
+ GET /solar-system 200 in 124ms (next.js: 35ms, application-code: 90ms)
+ GET / 200 in 143ms (next.js: 20ms, application-code: 124ms)
+✓ Compiled in 120ms
+ GET /solar-system 200 in 66ms (next.js: 2ms, application-code: 63ms)
+ GET / 200 in 173ms (next.js: 3ms, application-code: 170ms)
+ GET /solar-system 200 in 110ms (next.js: 3ms, application-code: 108ms)
+ GET / 200 in 96ms (next.js: 29ms, application-code: 67ms)
+✓ Compiled in 327ms
+✓ Compiled in 70ms
+✓ Compiled in 114ms
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 178ms (next.js: 16ms, application-code: 162ms)
+✓ Compiled in 203ms
+✓ Compiled in 91ms
+✓ Compiled in 69ms
+✓ Compiled in 54ms

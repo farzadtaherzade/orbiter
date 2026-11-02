@@ -1,0 +1,243 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Surfaces ─────────────────────────────── */
+  --color-void: #030712; /* page background — near-black navy */
+  --color-abyss: #060c1c; /* deepest panel */
+  --color-panel: #0a1226; /* raised panel */
+  --color-panel-2: #0e1830; /* hover / nested */
+  --color-edge: #1c2b4d; /* hairline borders */
+
+  /* ── Ink ──────────────────────────────────── */
+  --color-star: #e9f1ff; /* primary text */
+  --color-dim: #8ba0c4; /* secondary text */
+  --color-faint: #55688f; /* tertiary / labels */
+
+  /* ── Signals ──────────────────────────────── */
+  --color-nasa: #0b3d91; /* NASA blue */
+  --color-nasa-bright: #4d8dff;
+  --color-worm: #fc3d21; /* NASA worm red */
+  --color-cyan: #67e8f9; /* telemetry highlight */
+  --color-amber: #ffb454; /* caution */
+  --color-live: #34d399; /* live indicator */
+  --color-violet: #a78bfa; /* deep-space accent */
+
+  /* ── Type ─────────────────────────────────── */
+  --font-display: "Space Grotesk Variable", "Space Grotesk", sans-serif;
+  --font-sans: "Inter Variable", "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "IBM Plex Mono Fallback", ui-monospace, monospace;
+
+  /* ── Motion ───────────────────────────────── */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-pulse-dot: pulse-dot 2.4s ease-in-out infinite;
+  --animate-spin-slow: spin 14s linear infinite;
+  --animate-scan: scan 7s linear infinite;
+  --animate-flicker: flicker 4s linear infinite;
+  --animate-rise: rise 0.9s var(--ease-out-expo) both;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 0 0 color-mix(in srgb, currentColor 55%, transparent);
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 0 5px transparent;
+  }
+}
+@keyframes scan {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  92% {
+    opacity: 1;
+  }
+  93% {
+    opacity: 0.55;
+  }
+  94% {
+    opacity: 1;
+  }
+  97% {
+    opacity: 0.75;
+  }
+  98% {
+    opacity: 1;
+  }
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Base ───────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--color-void);
+  color: var(--color-star);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-nasa);
+  color: #fff;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-edge) transparent;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--color-edge);
+  border-radius: 3px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ── Utility layer ──────────────────────────── */
+@utility panel {
+  background: var(--color-panel);
+  border: 1px solid var(--color-edge);
+}
+
+@utility mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-faint);
+}
+
+@utility text-glow {
+  text-shadow:
+    0 0 24px color-mix(in srgb, currentColor 45%, transparent),
+    0 0 64px color-mix(in srgb, currentColor 25%, transparent);
+}
+
+/* HUD corner ticks — decorative frame */
+@utility hud-corners {
+  position: relative;
+}
+.hud-corners::before,
+.hud-corners::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+}
+.hud-corners::before {
+  top: -1px;
+  left: -1px;
+  border-top: 1px solid var(--color-cyan);
+  border-left: 1px solid var(--color-cyan);
+  opacity: 0.55;
+}
+.hud-corners::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 1px solid var(--color-cyan);
+  border-right: 1px solid var(--color-cyan);
+  opacity: 0.55;
+}
+
+/* faint blueprint grid backdrop */
+@utility grid-bg {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--color-edge) 38%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--color-edge) 38%, transparent) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* film grain overlay for hero areas */
+@utility grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* range input styled as telemetry slider */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 2px;
+  background: var(--color-edge);
+  border-radius: 1px;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-cyan);
+  border: 3px solid var(--color-void);
+  box-shadow: 0 0 0 1px var(--color-cyan);
+  transition: transform 0.15s ease;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--color-cyan);
+  border: 3px solid var(--color-void);
+  box-shadow: 0 0 0 1px var(--color-cyan);
+}
