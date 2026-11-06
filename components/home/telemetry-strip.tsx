@@ -47,7 +47,7 @@ function MoonGlyph({ size = 44, date }: { size?: number; date: Date | null }) {
 
 export function TelemetryStrip() {
   const iss = useIssPosition();
-  const now = useNow(30_000);
+  const now = useNow();
 
   const moon = now ? moonInfo(now) : null;
   const nextShower = now

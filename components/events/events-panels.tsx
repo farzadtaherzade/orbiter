@@ -29,7 +29,7 @@ export function MeteorCalendar() {
         <div>
           <h3 className="font-display text-xl font-semibold text-star">Annual meteor calendar</h3>
           <p className="mt-1 text-xs text-dim">
-            Active windows for the year's major showers — the marker shows today.
+            Active windows for the year’s major showers — the marker shows today.
           </p>
         </div>
         <SourceChip source="American Meteor Society" href="https://www.amsmeteors.org/meteor-showers/meteor-calendar/" />

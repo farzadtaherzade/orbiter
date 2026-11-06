@@ -145,9 +145,6 @@ function PlanetBody({
   useFrame((_, delta) => {
     const el = orbitRef.current;
     if (!el) return;
-    if (controls.playing) {
-      elapsedDaysRef.current += delta * controls.daysPerSecond;
-    }
     const days = elapsedDaysRef.current;
     const angle = angle0 + (days / planet.orbitDays) * Math.PI * 2;
     el.position.set(Math.cos(angle) * dist, 0, -Math.sin(angle) * dist);
@@ -331,6 +328,22 @@ function CameraRig({
   );
 }
 
+/* single source of simulated time — exactly one accumulator, never per planet */
+function TimeKeeper({
+  controls,
+  elapsedDaysRef,
+}: {
+  controls: SolarControls;
+  elapsedDaysRef: React.MutableRefObject<number>;
+}) {
+  useFrame((_, delta) => {
+    if (controls.playing) {
+      elapsedDaysRef.current += delta * controls.daysPerSecond;
+    }
+  });
+  return null;
+}
+
 /* ── Full scene ───────────────────────────────────────────────── */
 
 export function SolarScene({
@@ -356,6 +369,7 @@ export function SolarScene({
   return (
     <>
       <ambientLight intensity={0.14} />
+      <TimeKeeper controls={controls} elapsedDaysRef={elapsedDaysRef} />
       <Sun realistic={controls.realisticScale} showLabels={controls.showLabels} />
       {PLANETS.map((p) => (
         <PlanetBody

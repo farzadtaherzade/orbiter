@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useNowSeconds } from "@/hooks/use-now";
@@ -43,7 +43,7 @@ export function Nav() {
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
-    let raf = requestAnimationFrame(onScroll); // initial state after paint
+    const raf = requestAnimationFrame(onScroll); // initial state after paint
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => {
       cancelAnimationFrame(raf);

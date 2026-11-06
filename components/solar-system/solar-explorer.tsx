@@ -49,8 +49,7 @@ export function SolarExplorer() {
       <div className="relative">
         <LazyCanvas
           className="panel h-[74vh] min-h-[480px] w-full"
-          camera={{ position: [0, 16, 34], fov: 46 }}
-          dpr={[1, 1.5]}
+          camera={{ position: [0, 17, 36], fov: 46 }}
           ariaLabel="Interactive 3D solar system with all eight planets orbiting the Sun at their real relative speeds"
         >
           <SolarScene controls={controls} selectedId={selectedId} onSelect={setSelectedId} />
@@ -267,7 +266,7 @@ function Comparison() {
       </div>
 
       <div className="mt-5 flex flex-wrap items-center gap-4">
-        <Chip tone="cyan">The Sun: {formatBig(SUN.diameterKm)} km — {SUN.massEarth}× Earth's mass</Chip>
+        <Chip tone="cyan">The Sun: {formatBig(SUN.diameterKm)} km — {SUN.massEarth}× Earth’s mass</Chip>
         <SourceChip source="NASA planetary fact sheets" href="https://science.nasa.gov/solar-system/planets/" />
       </div>
     </Panel>

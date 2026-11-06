@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { useLiveData, ageOf, type DataState } from "@/hooks/use-live-data";
+import { useLiveData } from "@/hooks/use-live-data";
 import { searchNasaImages, type NasaImageItem } from "@/lib/nasa";
 import { DEEP_SKY_OBJECTS, type DeepSkyObject } from "@/data/deepspace";
-import { Panel, StatusBadge, SourceChip, Spinner } from "@/components/ui";
+import { SourceChip, Spinner } from "@/components/ui";
 
 /* One image per featured object, resolved through the NASA Image Library. */
 function ObjectImage({ o, className }: { o: DeepSkyObject; className?: string }) {

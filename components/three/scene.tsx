@@ -64,9 +64,15 @@ export function LazyCanvas({
 }) {
   const holder = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
-  const [glOk] = useState(webglAvailable);
+  // WebGL can only be probed client-side; start optimistic to match SSR markup
+  const [glOk, setGlOk] = useState(true);
 
   useEffect(() => {
+    setGlOk(webglAvailable());
+  }, []);
+
+  useEffect(() => {
+    if (!glOk) return;
     const el = holder.current;
     if (!el) return;
     const io = new IntersectionObserver(
@@ -75,7 +81,7 @@ export function LazyCanvas({
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [glOk]);
 
   if (!glOk) {
     return (

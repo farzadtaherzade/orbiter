@@ -9,7 +9,7 @@ import { useLiveData, ageOf, type DataState } from "@/hooks/use-live-data";
 import { fetchMarsRoverPhotos, type MarsPhoto } from "@/lib/nasa";
 import { MARS_FEATURES, ROVERS, MARS_TIMELINE, type MarsFeature } from "@/data/mars";
 import { latLonToVec3 } from "@/lib/astronomy";
-import { Panel, StatusBadge, SourceChip, Chip, Spinner } from "@/components/ui";
+import { Panel, Chip, SourceChip, StatusBadge } from "@/components/ui";
 
 /* ── 3D Mars with clickable surface markers ───────────────────── */
 
@@ -34,15 +34,14 @@ function Marker({
   const ref = useRef<THREE.Group>(null);
   const pos = useMemo(() => latLonToVec3(feature.lat, feature.lon, 1.005), [feature]);
   const color = KIND_COLOR[feature.kind];
+  const [hovered, setHovered] = useState(false);
 
-  useFrame(({ clock }) => {
+  useFrame(() => {
     if (ref.current) {
       ref.current.lookAt(0, 0, 0);
       ref.current.rotateX(Math.PI / 2);
     }
   });
-
-  const t = (clock: number) => 0; // pulse handled by CSS in the label
 
   return (
     <group position={pos}>
@@ -54,9 +53,11 @@ function Marker({
           }}
           onPointerOver={(e) => {
             e.stopPropagation();
+            setHovered(true);
             document.body.style.cursor = "pointer";
           }}
           onPointerOut={() => {
+            setHovered(false);
             document.body.style.cursor = "";
           }}
         >
@@ -64,20 +65,22 @@ function Marker({
           <meshBasicMaterial color={color} transparent opacity={selected ? 0.95 : 0.7} toneMapped={false} />
         </mesh>
       </group>
-      <Html center distanceFactor={7} position={[0, 0.09, 0]} zIndexRange={[10, 0]}>
-        <button
-          onClick={(e) => {
-            e.stopPropagation();
-            onSelect(selected ? null : feature.name);
-          }}
-          className={`pointer-events-auto cursor-pointer border px-1.5 py-0.5 font-mono text-[9px] tracking-[0.12em] whitespace-nowrap uppercase backdrop-blur-none transition-colors ${
-            selected ? "border-cyan bg-void text-cyan" : "border-transparent bg-void/70 text-dim hover:text-star"
-          }`}
-          style={selected ? { borderColor: color, color } : undefined}
-        >
-          {feature.name}
-        </button>
-      </Html>
+      {(selected || hovered) && (
+        <Html center distanceFactor={14} position={[0, 0.09, 0]} zIndexRange={[10, 0]} occlude>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onSelect(selected ? null : feature.name);
+            }}
+            className={`pointer-events-auto cursor-pointer border px-1.5 py-0.5 font-mono text-[8px] tracking-[0.12em] whitespace-nowrap uppercase transition-colors ${
+              selected ? "bg-void" : "border-transparent bg-void/80 text-dim hover:text-star"
+            }`}
+            style={selected ? { borderColor: color, color } : undefined}
+          >
+            {feature.name}
+          </button>
+        </Html>
+      )}
     </group>
   );
 }
@@ -177,7 +180,7 @@ function RoverPhotos({ roverId, roverName }: { roverId: "curiosity" | "persevera
         <div className="panel flex flex-col items-center gap-1.5 px-4 py-6 text-center">
           <span className="mono-label text-amber">Feed unavailable</span>
           <p className="text-xs text-dim">
-            The Mars Photo API can't be reached from this network right now.
+            The Mars Photo API can’t be reached from this network right now.
           </p>
           <a
             href={`https://mars.nasa.gov/mer/gallery/`}
@@ -185,7 +188,7 @@ function RoverPhotos({ roverId, roverName }: { roverId: "curiosity" | "persevera
             rel="noopener noreferrer"
             className="mono-label mt-1 text-cyan hover:text-star"
           >
-            Open NASA's Mars gallery ↗
+            Open NASA’s Mars gallery ↗
           </a>
         </div>
       ) : (

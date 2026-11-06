@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { PageShell, SectionHeader, Panel, CTA } from "@/components/ui";
+import { PageShell, SectionHeader } from "@/components/ui";
 import { ScaleExplorer } from "@/components/lab/scale-explorer";
 import { RocketLab } from "@/components/lab/rocket-sim";
 import { SpaceQuiz } from "@/components/lab/quiz";
@@ -40,7 +40,7 @@ export default function LabPage() {
           </h3>
           <p className="max-w-xl text-sm leading-relaxed text-dim">
             A real-time Schwarzschild raymarcher running in your GPU. Watch light
-            bend around the event horizon, the accretion disk's far side appear
+            bend around the event horizon, the accretion disk’s far side appear
             above and below, and the approaching side beam brighter — then drag
             around it yourself.
           </p>

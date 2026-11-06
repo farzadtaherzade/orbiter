@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useIssPosition, useIssTrack } from "@/hooks/use-iss";
 import { ageOf, type DataState } from "@/hooks/use-live-data";
 import { StatusBadge, Panel, SourceChip } from "@/components/ui";
@@ -31,9 +31,10 @@ export function IssMap() {
   ];
 
   /* rebuild static layer when data or map image is ready */
+  const [mapReady, setMapReady] = useState(0);
   const staticVersion = useMemo(
-    () => `${issLive ? iss.data.timestamp : 0}:${trackLive ? track.data.length : 0}:${mapImgRef.current ? 1 : 0}`,
-    [issLive, iss.data.timestamp, trackLive, track.data]
+    () => `${issLive ? iss.data.timestamp : 0}:${trackLive ? track.data.length : 0}:${mapReady}`,
+    [issLive, iss.data.timestamp, trackLive, track.data, mapReady]
   );
 
   useEffect(() => {
@@ -41,9 +42,9 @@ export function IssMap() {
     img.src = MAP_SRC;
     img.onload = () => {
       mapImgRef.current = img;
-      renderStatic();
+      setMapReady((v) => v + 1);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, []);
 
   const renderStatic = () => {
@@ -202,7 +203,7 @@ export function IssMap() {
       cancelAnimationFrame(raf);
       ro.disconnect();
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+     
   }, [issLive, iss.data.lat, iss.data.lon]);
 
   return (

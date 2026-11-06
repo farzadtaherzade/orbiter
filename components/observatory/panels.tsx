@@ -25,7 +25,7 @@ export function ApodPanel() {
     fallback: SAMPLE_APOD,
   });
   const [hd, setHd] = useState(false);
-  const isSample = apod.state === "sample";
+
   const src = hd && apod.data.hdurl ? apod.data.hdurl : apod.data.url;
 
   return (
@@ -40,7 +40,7 @@ export function ApodPanel() {
       {apod.data.media_type === "video" ? (
         <div className="flex h-72 items-center justify-center bg-abyss">
           <a href={apod.data.url} target="_blank" rel="noopener noreferrer" className="mono-label text-cyan hover:text-star">
-            Watch today's video ↗
+            Watch today’s video ↗
           </a>
         </div>
       ) : (
@@ -129,13 +129,23 @@ export function NeoPanel() {
           <ul className="space-y-3">
             {list.map((n) => {
               const ld = n.missDistanceKm / LD_KM;
+              // JPL full format "2026-Nov-07 12:34" or plain "2026-11-07"
+              const d = /^\d{4}-\d{2}-\d{2}$/.test(n.closeApproachDate)
+                ? new Date(n.closeApproachDate)
+                : new Date(n.closeApproachDate.replace(/-/g, " "));
+              const when = isNaN(d.getTime())
+                ? n.closeApproachDate
+                : d.toLocaleString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                    hour: "2-digit",
+                    minute: "2-digit",
+                  });
               return (
                 <li key={n.id} className="border-b border-edge/60 pb-3 last:border-0 last:pb-0">
                   <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
                     <span className="font-mono text-xs text-star">{n.name}</span>
-                    <span className="font-mono text-[10px] text-faint tabular-nums">
-                      {new Date(n.closeApproachDate.replace(/-/g, " ").replace("Feb", "Feb")).toLocaleString?.("") ?? n.closeApproachDate}
-                    </span>
+                    <span className="font-mono text-[10px] text-faint tabular-nums">{when}</span>
                   </div>
                   <div className="mt-1.5 flex items-center gap-3">
                     <div className="h-1 flex-1 overflow-hidden rounded bg-edge/60">
@@ -246,7 +256,7 @@ export function EonetPanel() {
         <StatusBadge state={events.state as DataState} age={ageOf(events.fetchedAt)} />
       </div>
       <p className="mb-4 text-xs leading-relaxed text-dim">
-        Open natural events tracked by NASA's Earth Observatory — wildfires,
+        Open natural events tracked by NASA’s Earth Observatory — wildfires,
         eruptions, storms and more.
       </p>
       <ul className="max-h-64 space-y-2 overflow-y-auto pr-1">
@@ -285,7 +295,7 @@ export function ApiKeyPanel() {
     <Panel className="p-5">
       <h3 className="font-display text-lg font-semibold text-star">NASA API key</h3>
       <p className="mt-2 max-w-2xl text-xs leading-relaxed text-dim">
-        NASA's public <span className="font-mono text-cyan">DEMO_KEY</span> is shared by
+        NASA’s public <span className="font-mono text-cyan">DEMO_KEY</span> is shared by
         everyone and rate-limited (30 requests/hour). When it is exhausted, this site
         shows clearly-labeled archived samples. For always-live data,{" "}
         <a

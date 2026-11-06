@@ -219,7 +219,7 @@ function BlackHoleShader({
 export function BlackHoleLab() {
   const orbit = useRef({ yaw: 0.35, pitch: 0.22, dist: 15 });
   const drag = useRef<{ active: boolean; x: number; y: number }>({ active: false, x: 0, y: 0 });
-  const [params, setParams] = useState({ rs: 1, gain: 1.1, doppler: true, steps: 150 });
+  const [params, setParams] = useState({ rs: 1, gain: 1.1, doppler: true, steps: 96 });
   const [autoOrbit, setAutoOrbit] = useState(true);
 
   /* slow cinematic drift when auto-orbit is on */
@@ -314,9 +314,9 @@ export function BlackHoleLab() {
           <input
             id="bh-steps"
             type="range"
-            min={60}
-            max={220}
-            step={10}
+            min={48}
+            max={200}
+            step={8}
             value={params.steps}
             onChange={(e) => setParams((p) => ({ ...p, steps: Number(e.target.value) }))}
             className="mb-4 w-full"
@@ -349,7 +349,7 @@ export function BlackHoleLab() {
           <p className="text-xs leading-relaxed text-dim">
             Every pixel traces a light ray backwards through curved spacetime.
             Rays bend around the event horizon (the black shadow), wrap over the
-            top to show the disk's far side above and below it, and form the thin
+            top to show the disk’s far side above and below it, and form the thin
             photon ring. The approaching side of the disk glows brighter —
             relativistic Doppler beaming — and light near the horizon is dimmed
             by gravitational redshift.
@@ -371,7 +371,7 @@ function BHCanvas({
     <LazyCanvas
       className="absolute inset-0"
       camera={{ position: [0, 0, 1], fov: 50 }}
-      dpr={[0.6, 1]}
+      dpr={[0.5, 0.75]}
       ariaLabel="Black hole with gravitational lensing and an accretion disk"
     >
       <BlackHoleShader params={params} orbitRef={orbit} />

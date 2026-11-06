@@ -5,7 +5,6 @@ import * as THREE from "three";
 import { useFrame, useThree } from "@react-three/fiber";
 import { EarthGlobe } from "./earth-globe";
 import { StarField, LazyCanvas } from "./scene";
-import { useIssPosition } from "@/hooks/use-iss";
 
 /* Cinematic hero: mouse-parallax camera + scroll-linked descent.
    The Earth keeps a REAL day/night terminator from the live clock. */

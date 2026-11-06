@@ -40,7 +40,7 @@ interface SimState {
 
 function computeDeltaV(stages: StageConfig[], payloadKg: number): { total: number; perStage: number[] } {
   // stack from the top: payload, then stages in order (stage 1 = first fired)
-  let upperMass = payloadKg;
+  const upperMass = payloadKg;
   const perStage: number[] = [];
   const totalStack = stages.reduce((acc, s) => acc + s.fuelTons * 1000 * 1.09, upperMass);
   let remaining = totalStack;
@@ -121,8 +121,9 @@ export function RocketLab() {
     simRef.current = s0;
     setSim({ ...s0 });
     cancelAnimationFrame(rafRef.current);
-    let last = performance.now();
+    let last: number | null = null;
     const loop = (now: number) => {
+      if (last === null) last = now;
       const dtReal = Math.min((now - last) / 1000, 0.05);
       last = now;
       step(dtReal * 3); // 3× time compression
@@ -137,7 +138,6 @@ export function RocketLab() {
     const sub = 4;
     const h = dt / sub;
     for (let i = 0; i < sub; i++) {
-      const eng = stages[Math.max(s.stage, 0)];
       const cfg = stages[s.stage];
       if (s.stage >= 0 && cfg) {
         const e = ENGINES[cfg.engine];

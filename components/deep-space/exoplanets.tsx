@@ -16,20 +16,11 @@ interface Exoplanet {
   equilibriumTempK: number | null;
 }
 
-const METHODS = ["Transit", "Radial Velocity", "Microlensing", "Imaging", "Astrometry", "Orbital Brightness Modulation", "Eclipse Timing Variations", "Pulsation Timing Variations", "Transit Timing Variations", "Disk Kinematics"];
-
 function radiusColor(r: number): string {
   if (r < 1.25) return "#c084fc"; // sub-Earth / rocky
   if (r < 2) return "#67e8f9"; // super-Earth
   if (r < 6) return "#4d8dff"; // Neptune-like
   return "#ffb454"; // Jupiter-like
-}
-
-function radiusClass(r: number): string {
-  if (r < 1.25) return "Rocky";
-  if (r < 2) return "Super-Earth";
-  if (r < 6) return "Neptune-like";
-  return "Jovian";
 }
 
 /** Scatter: orbital period (log x) vs radius (log y), colored by class. */
